@@ -14,6 +14,11 @@ nav {
 h1 {
   text-align: center;
 }
+h2.welcome {
+  color: #40e0d0;
+  font-weight: bold;
+  font-size: 2rem;
+}
 .italicize {
   font-style: italic;
 }
@@ -48,6 +53,6 @@ footer {
   font-weight: bold;
 }
 section.course {
-  border: 1px dotted #bbc4dd;
-  background-color: #bbc4dd;
+  /* border: 1px dotted #bbc4dd; */
+  background-color: #b0e0e6;
 }
