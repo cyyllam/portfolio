@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI";
+  font-weight: lighter;
+}
+nav {
+  font-weight: bolder;
+}
+.navlink {
+  color: #6495ed;
+}
+h1 {
+  text-align: center;
+}
+.italicize {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.bold.popgrey {
+  color: #a7a0a0;
+}
+.courseheading {
+  font-weight: bolder;
+}
+.courselinks {
+  color: #f1f2f4;
+}
+footer {
+  font-size: .6em;
+}
+.socialglyph {
+  border-style: none;
+  padding: 5px;
+}
+.assignmentimg {
+  border: 3px solid;
+  padding: 15px;
+}
+.titledescription {
+  font-size: 1.2rem;
+}
+.quarterheader {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+section.course {
+  border: 1px dotted #bbc4dd;
+  background-color: #bbc4dd;
+}
