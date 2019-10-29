@@ -52,10 +52,16 @@ footer {
   font-size: 1.2rem;
   font-weight: bold;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 1%;
+  padding: 1%;
+}
 section.course {
   background-color: #b0e0e6;
   border: 3px dotted;
-  margin: 1%;
-  padding: 1%;
-  width: 22%;
+  margin: 3%;
+  padding: 3%;
+  /* width: 30%; */
 }
