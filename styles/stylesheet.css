@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
   font-family: "Segoe UI";
   font-weight: lighter;
@@ -53,6 +53,9 @@ footer {
   font-weight: bold;
 }
 section.course {
-  /* border: 1px dotted #bbc4dd; */
   background-color: #b0e0e6;
+  border: 3px dotted;
+  margin: 1%;
+  padding: 1%;
+  width: 22%;
 }
