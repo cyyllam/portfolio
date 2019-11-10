@@ -8,25 +8,45 @@ body {
 nav {
   font-weight: bolder;
 }
+.landing-nav, .project-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+  padding-top: 1rem;
+}
+.fab {
+  font-size: 3rem;
+}
 .navlink {
   color: #6495ed;
+  text-decoration: none;
+  padding-right: 1rem;
 }
-h1 {
+h1.landing {
+  font-family: 'Crimson Text', serif;
+  margin: auto;
+  max-width: 50%;
   text-align: center;
 }
 h2.welcome {
-  color: #40e0d0;
   font-weight: bold;
   font-size: 2rem;
+  font-family: 'Crimson Text', serif;
 }
 .italicize {
   font-style: italic;
 }
+main.landing {
+  margin: auto;
+  max-width: 50%;
+}
 .bold {
   font-weight: bold;
 }
-.bold.popgrey {
-  color: #a7a0a0;
+.description {
+  font-family: 'Open Sans', sans-serif;
 }
 .courseheading {
   font-weight: bolder;

@@ -4,53 +4,71 @@
   <head>
     <meta charset="utf-8">
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/eb51aaebc6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
   <body>
     <header>
-      <h1>My Portfolio</h1>
+      <h1 class="landing">Christy Lam</h1>
       <nav>
-        <ul>
+        <ul class="landing-nav">
           <li><a class = "navlink" href="projects.html">Course Projects</a></li>
-          <li><a class = "navlink" href="#">About me</a></li>
+          <li><a class = "navlink" href="#">Work</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="landing-nav">
+          <li>
+            <a class="navlink" href="#"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a class="navlink" href="https://github.com/cyyllam" target="_blank"><i class="fab fa-github-square"></i></a>
+          </li>
+          <li>
+            <a class="navlink" href="#"><i class="fab fa-instagram"></i></a>
+          </li>
         </ul>
       </nav>
     </header>
-    <article>
-      <h2 class="welcome">Welcome</h2>
-    </article>
-    <section>
-      <p class = "bold popgrey">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p class = "bold popgrey">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p class="italicize">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </section>
+    <main class="landing">
+      <article>
+        <h2 class="welcome">Hello</h2>
+      </article>
+      <section>
+        <p class="description">
+          I am a data analyst at the Puget Sound Region Council who works with land use
+          and travel forecast modellers. I studied Geographic Information
+          Systems (GIS), but over the years my interests focused less on GIS and more on automating
+          data wrangling and visualization.
+        </p>
+        <p class="description">
+          I am an R programmer trying to learn Python and often debating whether
+          or not I should use Shiny or Dash. When not in front of a computer, you can find me in a
+          dance studio or knitting.
+        </p>
+        <p class = "bold popgrey">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p class="italicize">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+
+    </main>
+
     <footer>
-      <a href="#">
+      <!-- <a href="#">
         <img
         class = "socialglyph"
         src="images/glyph-logo-may-2016.png"
@@ -73,7 +91,7 @@
         alt="github glyph"
         width="40"
         >
-      </a>
+      </a> -->
     </footer>
   </body>
 </html>
