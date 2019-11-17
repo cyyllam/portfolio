@@ -31,6 +31,17 @@ section[class^="course"] i {
   text-decoration: none;
   padding-right: 1rem;
 }
+.desclink {
+  color: #6495ed;
+  text-decoration: none;
+  transition-property:font-size;
+  transition-duration: 1.2s;
+  transition-delay: 1s;
+}
+.desclink:hover {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
 h1 {
   font-family: 'Crimson Text', serif;
 }
@@ -66,10 +77,10 @@ main.landing {
   color: grey;
   text-decoration: none;
 }
-.socialglyph {
+/* .socialglyph {
   border-style: none;
   padding: 5px;
-}
+} */
 /* .assignmentimg {
   border: 3px solid;
   padding: 15px;
@@ -99,6 +110,7 @@ section.course {
 }
 section.course h2 {
   color: grey;
+  font-size: 1rem;
 }
 section.course p {
   margin-bottom: 5em;
@@ -109,6 +121,11 @@ section.course footer {
   bottom: 0;
   padding-bottom: .5em;
   margin: auto;
+}
+section.course {
+  transition-property:background-color;
+  transition-duration: 1.2s;
+  transition-delay: 1s;
 }
 section.course:hover {
   border: 3px dotted white;
