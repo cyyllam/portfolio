@@ -8,6 +8,13 @@ body {
 nav {
   font-weight: bolder;
 }
+nav:first-of-type a:hover {
+  font-weight: bold;
+}
+section[class^="course"] i {
+  font-size: 3rem;
+  color: grey;
+}
 .landing-nav, .project-nav {
   display: flex;
   justify-content: center;
@@ -24,6 +31,9 @@ nav {
   text-decoration: none;
   padding-right: 1rem;
 }
+h1 {
+  font-family: 'Crimson Text', serif;
+}
 h1.landing {
   font-family: 'Crimson Text', serif;
   margin: auto;
@@ -35,40 +45,41 @@ h2.welcome {
   font-size: 2rem;
   font-family: 'Crimson Text', serif;
 }
-.italicize {
+/* .italicize {
   font-style: italic;
-}
+} */
 main.landing {
   margin: auto;
   max-width: 50%;
 }
-.bold {
+/* .bold {
   font-weight: bold;
-}
+} */
 .description {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
 }
 .courseheading {
   font-weight: bolder;
 }
 .courselinks {
-  color: #f1f2f4;
-}
-footer {
-  font-size: .6em;
+  color: grey;
+  text-decoration: none;
 }
 .socialglyph {
   border-style: none;
   padding: 5px;
 }
-.assignmentimg {
+/* .assignmentimg {
   border: 3px solid;
   padding: 15px;
-}
+} */
 .titledescription {
-  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 .quarterheader {
+  font-family: 'Crimson Text', serif;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -79,9 +90,33 @@ footer {
   padding: 1%;
 }
 section.course {
-  background-color: #b0e0e6;
-  border: 3px dotted;
+  position: relative;
+  background-color: lightgrey;
+  border: 3px dotted lightgrey;
   margin: 3%;
   padding: 3%;
   /* width: 30%; */
+}
+section.course h2 {
+  color: grey;
+}
+section.course p {
+  margin-bottom: 5em;
+  color: grey;
+}
+section.course footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: .5em;
+  margin: auto;
+}
+section.course:hover {
+  border: 3px dotted white;
+  background-color: #6495ed;
+}
+section.course:hover h2,
+section.course:hover p,
+section.course:hover i,
+section.course:hover a{
+  color: white
 }
