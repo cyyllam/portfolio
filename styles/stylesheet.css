@@ -27,12 +27,14 @@ section[class^="course"] i {
   font-size: 3rem;
 }
 .navlink {
-  color: #6495ed;
+  /* color: #6495ed; */
+  color: #3271E7;
   text-decoration: none;
   padding-right: 1rem;
 }
 .desclink {
-  color: #6495ed;
+  /* color: #6495ed; */
+  color: #3271E7;
   text-decoration: none;
   transition-property:font-size;
   transition-duration: 1.2s;
@@ -124,12 +126,13 @@ section.course footer {
 }
 section.course {
   transition-property:background-color;
-  transition-duration: 1.2s;
-  transition-delay: 1s;
+  transition-duration: .5s;
+  transition-delay: .5s;
 }
 section.course:hover {
   border: 3px dotted white;
-  background-color: #6495ed;
+  /* background-color: #6495ed; */
+  background-color: #3271E7;
 }
 section.course:hover h2,
 section.course:hover p,
